@@ -1,0 +1,559 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pranav's Projects</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="css/project.css">
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#"><span>PROJECTS</span></a>
+  
+        <!-- Toggle Button for Mobile View -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto"> <!-- ms-auto pushes items to the right -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MENU
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#project-1">PIX2PIX GAN</a></li>
+                <li><a class="dropdown-item" href="#project-2">Shoe Designer AI</a></li>
+                <li><a class="dropdown-item" href="#project-3">Feedback Ananlyser AI</a></li>
+                <li><a class="dropdown-item" href="#project-4">Interactive GAN</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+
+
+      <!-- project 1 -->
+
+      <h1 id="project-1" class="project-title">PIX2PIX GAN - Generative Adversarial Network </h1>
+      
+
+      <div id="project1" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#project1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#project1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#project1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#project1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#project1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/projects/pix2pix2.jpg" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/pix2pix3.jpg" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/pix2pix4.jpg" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/pix2pix5.jpg" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/pix2pix6.jpg" class="d-block w-100" alt=" Project image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#project1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#project1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="project-contant"><ul>
+      
+      
+      
+      
+    <h2>🛰️ Satellite-to-Map Image Translation Using Pix2Pix GAN</h2>
+
+<p><strong>Overview:</strong> This project uses a deep learning model based on Pix2Pix GAN to automatically convert satellite images into map-style renderings. It reduces the need for manual map creation and makes geospatial analysis more accessible through AI-powered automation.</p>
+
+<ul>
+  <li>
+    <strong>Problem Statement:</strong>
+    <ul>
+      <li>Satellite images are dense and complex, often requiring manual interpretation to extract useful map-like views for navigation, urban planning, and GIS.</li>
+      <li>Manual conversion is time-consuming and requires expert knowledge.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Proposed Solution:</strong>
+    <ul>
+      <li>This project leverages a Pix2Pix conditional GAN to automatically learn the translation from satellite imagery to clean, readable maps.</li>
+      <li>It enables fast, scalable, and intelligent image translation using AI.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>What is a GAN?</strong>
+    <ul>
+      <li>GAN stands for <em>Generative Adversarial Network</em>.</li>
+      <li>It consists of two neural networks:
+        <ul>
+          <li><strong>Generator (G):</strong> Creates realistic outputs (maps).</li>
+          <li><strong>Discriminator (D):</strong> Evaluates if an image is real (human-made) or fake (generated).</li>
+        </ul>
+      </li>
+      <li>They train together adversarially — G tries to fool D, and D tries to catch G.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Why Pix2Pix GAN?</strong>
+    <ul>
+      <li>Pix2Pix is a type of conditional GAN designed for <strong>paired image translation tasks</strong>.</li>
+      <li>It maps one representation of an image (satellite) to another (map) by learning from paired training data.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Generator Architecture (U-Net):</strong>
+    <ul>
+      <li>The Generator uses a U-Net structure:</li>
+      <li>Encoder downsamples the satellite image to extract features.</li>
+      <li>Decoder upsamples to construct a map image.</li>
+      <li><strong>Skip connections</strong> preserve spatial detail for sharper map boundaries and roads.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Discriminator Architecture (PatchGAN):</strong>
+    <ul>
+      <li>Instead of classifying the whole image, PatchGAN classifies small <strong>70×70 patches</strong> for realism.</li>
+      <li>This improves local details like roads, buildings, and borders in the output.</li>
+      <li>Outputs a matrix of real/fake probabilities across the image.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Training Workflow:</strong>
+    <ul>
+      <li>Each input is a combined image: left side = satellite, right side = map.</li>
+      <li>The model is trained to minimize:
+        <ul>
+          <li><strong>Adversarial loss</strong>: Fool the discriminator</li>
+          <li><strong>L1 loss</strong>: Stay close to the target map image</li>
+        </ul>
+      </li>
+      <li>Training is done using AMP (Automatic Mixed Precision) for performance.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Inference Workflow:</strong>
+    <ul>
+      <li>User uploads a satellite image via the web interface.</li>
+      <li>Image is resized, normalized, and passed through the Generator.</li>
+      <li>The Generator creates the map-style image.</li>
+      <li>The output is shown and saved automatically.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>User Interface (Streamlit):</strong>
+    <ul>
+      <li>Clean web interface allows users to:
+        <ul>
+          <li>Upload satellite images</li>
+          <li>Generate map-style images with one click</li>
+          <li>Download the output image for use</li>
+        </ul>
+      </li>
+      <li>Powered by: Streamlit, PyTorch, PIL</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Real-World Applications:</strong>
+    <ul>
+      <li>Urban planning and infrastructure development</li>
+      <li>Automated map generation for GIS tools</li>
+      <li>Environmental change monitoring (deforestation, flooding)</li>
+      <li>Agriculture field boundary mapping</li>
+      <li>Disaster response visual tools (before/after maps)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Technologies Used:</strong> PyTorch, Pix2Pix GAN, Streamlit, PIL, Albumentations, OpenCV</p>
+
+      
+      
+      
+      
+      </div>
+    
+      <!-- project 2 -->
+
+      <h1 id="project-2" class="project-title">SHOE DESIGNER AI </h1>
+
+      <div id="project2" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#project2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#project2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#project2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/projects/shoe_convo.png" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/Retrivel.png" class="d-block w-100" alt=" Project image.">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/shoe_output.png" class="d-block w-100" alt=" Project image.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#project2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#project2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="project-contant">
+
+
+
+
+
+<ul>
+  <li>
+    <strong>Problem Statement:</strong>
+    <ul>
+      <li>Designing custom shoes is time-consuming and requires expert design knowledge.</li>
+      <li>Users lack the tools to visualize and generate creative shoe designs based on their ideas or trends.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Solution:</strong>
+    <ul>
+      <li>An end-to-end AI-powered shoe designing application that interacts with users, understands their preferences, and generates visual shoe concepts in real-time.</li>
+      <li>Combines conversational AI, generative models, and retrieval-based context agents for enhanced design experience.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Chatbot – LLaMA 3.2 3B Model:</strong>
+    <ul>
+      <li>Used Meta’s LLaMA 3.2 3B language model to power the core chatbot.</li>
+      <li>Provides natural and engaging conversation to understand user needs and guide them through the design process.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Chatbot Agent:</strong>
+    <ul>
+      <li>Implemented using Langchain's agent system with tool calling capabilities.</li>
+      <li>Allows the chatbot to invoke various tools like prompt generation, image generation, and RAG systems contextually during conversation.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Stable Diffusion Integration:</strong>
+    <ul>
+      <li>Used Stable Diffusion to generate high-quality images of custom shoes based on textual prompts.</li>
+      <li>Users can visualize their designs in real time after describing them to the chatbot.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Fine-tuning LLaMA 3.2 3B with Unsloth:</strong>
+    <ul>
+      <li>Fine-tuned the base LLaMA 3.2 3B model using Unsloth for faster training.</li>
+      <li>Used a custom dataset of 500 user-designer conversations to improve the prompt understanding and generation capabilities.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Prompt Generation AI Agent:</strong>
+    <ul>
+      <li>Created a dedicated prompt generation agent using the fine-tuned LLaMA 3.2 3B model.</li>
+      <li>This agent transforms user inputs into optimized prompts tailored for Stable Diffusion image generation.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>RAG (Retrieval-Augmented Generation) Agent:</strong>
+    <ul>
+      <li>Integrated a <strong>Retrieval-Augmented Generation (RAG) agent</strong> to enhance the AI assistant with real-time, factual, and style-aware responses.</li>
+      <li>The RAG pipeline uses <strong>DuckDuckGo search</strong> to retrieve the top 5 most relevant web documents based on the user's question or design prompt (e.g., "What are trending sneaker styles in 2025?").</li>
+      <li>Retrieved documents are semantically filtered and passed as context to the language model (LLM), alongside the original user query.</li>
+      <li>The AI agent analyzes both the retrieved context and the user’s intent to generate a <strong>contextually rich and accurate response</strong>.</li>
+      <li>This makes the system capable of answering design-related questions, style recommendations, material insights, and fashion trends — grounded in real data, not hallucination.</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+      </div>
+
+
+
+
+
+      <!-- project 3 -->
+
+      <h1 id="project-3" class="project-title">📊 College Feedback Analyzer</h1>
+
+      <div id="project3" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#project3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#project3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#project3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#project3" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#project3" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/projects/feedback1.png" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/feedback2.png" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/feedback3.png" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/feedback4.png" class="d-block w-100" alt=" Project image">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/feedback5.png" class="d-block w-100" alt=" Project image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#project3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#project3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+      <div class="project-contant">
+        
+
+
+
+<p>
+A fully AI-powered feedback analysis system built to automate sentiment detection, summarization, comparison, and conversational exploration of student feedback data across departments and years.
+</p>
+
+<h3>🚩 Problem Statement</h3>
+<ul>
+  <li>Colleges collect massive amounts of student feedback, often as unstructured CSVs containing free-form text.</li>
+  <li>Manual review of feedback is slow, subjective, and rarely scalable to thousands of entries.</li>
+  <li>There’s no standard CSV format, making ingestion and processing difficult.</li>
+  <li>Institutions lack tools to interactively analyze changes in feedback across years or departments.</li>
+</ul>
+
+<h3>✅ Solution Overview</h3>
+<ul>
+  <li>Automated ingestion, cleaning, and standardization of raw CSV files.</li>
+  <li>Sentiment classification using LLaMA3.2 + fine-tuned prompts or models.</li>
+  <li>Deep summarization of feedback per department/professor, even detecting hidden sentiments in neutral responses.</li>
+  <li>Interactive chatbot powered by RAG (Retrieval Augmented Generation) that answers user queries directly from the feedback data — no hallucination.</li>
+  <li>Ability to compare multiple academic years and highlight what has improved or regressed.</li>
+</ul>
+
+<h3>🧹 Data Cleaner Agent</h3>
+<ul>
+  <li>Uses LLaMA3.2 via LangChain to intelligently map mismatched column names (e.g., <code>prof_name</code> → <code>Teacher</code>).</li>
+  <li>Filters out irrelevant columns like "Sentiment", "Rating", "Score".</li>
+  <li>Handles missing values and guarantees a clean schema: <strong>ID, Department, Teacher, FeedbackText</strong>.</li>
+</ul>
+
+<h3>🔍 Sentiment Classifier Agent</h3>
+<ul>
+  <li>Classifies every row as <strong>Positive</strong>, <strong>Neutral</strong>, or <strong>Negative</strong>.</li>
+  <li>Supports model prompt tuning for better accuracy and adaptation.</li>
+  <li>Planned support for <strong>fine-tuned LLaMA3.2</strong> using small labeled datasets to boost domain-specific sentiment accuracy.</li>
+</ul>
+
+<h3>📝 Summarization Agent</h3>
+<ul>
+  <li>Groups feedback by department and professor.</li>
+  <li>Extracts key <strong>positive</strong> and <strong>negative</strong> themes using an LLM summarizer.</li>
+  <li>Neutral feedback is also analyzed for embedded sentiments — avoiding false assumptions.</li>
+  <li>Generates visually friendly, bullet-point summaries for management review.</li>
+</ul>
+
+<h3>🧠 Vector Database (ChromaDB)</h3>
+<ul>
+  <li>All cleaned and embedded feedback is stored in <strong>ChromaDB</strong> as vectors using <code>nomic-embed-text</code>.</li>
+  <li>Enables real-time semantic search and retrieval via vector similarity.</li>
+  <li>Each document includes metadata: department, professor, and ID for contextual filtering.</li>
+</ul>
+
+<h3>🤖 Chatbot Agent (RAG-Powered)</h3>
+<ul>
+  <li>Interactive assistant built using LangChain's <code>RetrievalQA</code> chain and LLaMA3.2.</li>
+  <li>Only answers from ChromaDB — zero hallucination.</li>
+  <li>Supports natural language queries like:
+    <ul>
+      <li>“How is Dr. Iyer performing in Mathematics?”</li>
+      <li>“What are the top concerns in the Chemistry department?”</li>
+    </ul>
+  </li>
+  <li>Shows retrieved context for transparency in responses.</li>
+</ul>
+
+<h3>📈 Comparison Agent (Multi-Year Feedback Analysis)</h3>
+<ul>
+  <li>Accepts two CSV uploads, e.g., <strong>2023.csv</strong> and <strong>2024.csv</strong>.</li>
+  <li>After cleaning and vectorizing both datasets, the agent compares:
+    <ul>
+      <li>Improved areas across departments/professors</li>
+      <li>Issues that remain unresolved</li>
+      <li>New negative concerns raised</li>
+    </ul>
+  </li>
+  <li>Ideal for accreditation reports, quality audits, or strategic review meetings.</li>
+</ul>
+
+<h3>🚀 Key Technologies</h3>
+<ul>
+  <li><strong>LLM:</strong> LLaMA3.2 (via Ollama)</li>
+  <li><strong>Embeddings:</strong> nomic-embed-text</li>
+  <li><strong>Vector Store:</strong> ChromaDB</li>
+  <li><strong>Pipeline Framework:</strong> LangChain Agents</li>
+  <li><strong>Frontend:</strong> Streamlit</li>
+</ul>
+
+
+
+      </div>
+
+
+
+
+
+      <!-- project 4 -->
+
+      <h1 id="project-4" class="project-title">Interactive GAN</h1>
+
+      <div id="project4" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#project4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#project4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/projects/igan1.png" class="d-block w-100" alt=" Project image.">
+          </div>
+          <div class="carousel-item">
+            <img src="images/projects/igan2.png" class="d-block w-100" alt=" Project image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#project4" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#project4" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+
+
+<div class="project-contant">
+
+
+
+
+      <h2>🎨 Interactive Sketch-to-Image Generation using GANs</h2>
+
+<p>This project demonstrates a real-time AI system that transforms rough sketches into photo-realistic images using GANs. Built using state-of-the-art tools like <strong>StyleGAN2</strong> and <strong>Gradio</strong>, the application offers an intuitive UI and powerful backend optimizations for seamless image generation and editing.</p>
+
+<ol>
+  <li><strong>GAN Backbone</strong>
+    <ul>
+      <li>Used pretrained <strong>StyleGAN2</strong> models for high-quality image generation.</li>
+      <li>Supports 256x256 and 512x512 resolution outputs for crisp detail.</li>
+    </ul>
+  </li>
+
+  <li><strong>Image Projection</strong>
+    <ul>
+      <li>Projected real images into the GAN latent space using <strong>LPIPS perceptual loss</strong>.</li>
+      <li>Integrated <strong>CLIP loss</strong> for better semantic alignment (optional).</li>
+    </ul>
+  </li>
+
+  <li><strong>Interactive Editing UI</strong>
+    <ul>
+      <li>Built with <strong>Gradio</strong> for fast and clean sketching/editing experience.</li>
+      <li>Users can apply color strokes, sketches, and shape warps with live preview.</li>
+    </ul>
+  </li>
+
+  <li><strong>Latent Vector Optimization</strong>
+    <ul>
+      <li>Edited images are translated into latent space updates via gradient descent.</li>
+      <li>Supports smooth, responsive feedback to user changes in real-time.</li>
+    </ul>
+  </li>
+
+  <li><strong>Edit Transfer to Real Photos</strong>
+    <ul>
+      <li>Used <strong>RAFT optical flow</strong> to transfer edits cleanly to original images.</li>
+      <li>Preserves both structure and style with minimal artifacts.</li>
+    </ul>
+  </li>
+
+  <li><strong>Post-Processing & Extensions</strong>
+    <ul>
+      <li>Added <strong>guided upsampling</strong> and lightweight CNNs for sharpening and refinement.</li>
+      <li>Future scope includes text-driven editing using CLIP guidance and super-resolution.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Tech Stack:</strong> Python, StyleGAN2, Gradio, LPIPS, CLIP, RAFT, Streamlit, NumPy, PyTorch</p>
+
+
+</div>
+
+
+</body>
+</html>
